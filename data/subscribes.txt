@@ -1,1 +1,9 @@
-http://sub.kjdjakskl.cyou/api/v1/client/subscribe?token=49c871f31187305f033b5a69e465f862
+https://api.heima2u.com/api/v1/client/subscribe?token=17ddc942ec8f62f70af2081c8d401fdc
+https://cola.xn--chqu2nzsxv3y.com/api/v1/client/subscribe?token=a16aece545ec996cb255b7bb43a1624f
+http://51.255.173.39/api/v1/client/subscribe?token=79baa2668e0a4e4fd883b7f54d60fbfb
+https://5.44.251.106/api/v1/client/subscribe?token=59ddd1183097d1aca7e47e9d83708c55
+https://cola.xn--chqu2nzsxv3y.com/api/v1/client/subscribe?token=b7dfd3953474a04be7dcd685a9c7b6f9
+http://sub.kjdjakskl.cyou/api/v1/client/subscribe?token=3ee960b11fece15402db691dd7100801
+https://sub.flygfw.top/HonkaiStarRail/5789e9808d1c52d1372e2df7ad11b746
+https://cola.xn--chqu2nzsxv3y.com/api/v1/client/subscribe?token=d93413d5fc89acce7e38552a085969f7
+https://sub1.pingboy.top/api/v1/client/subscribe?token=9b8f2825905b0b3797a721dec7f793d9
