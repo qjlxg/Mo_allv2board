@@ -1,1 +1,1 @@
-http://sub.kjdjakskl.cyou/api/v1/client/subscribe?token=9565e9189b688d33ec71e8ca88d6b633
+http://sub.kjdjakskl.cyou/api/v1/client/subscribe?token=345098710bea5d692f4274c19b1f61e8
