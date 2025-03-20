@@ -1,0 +1,162 @@
+2025-03-20 13:29:54 collect.py [line:209] ERROR: cannot extract username and gist id due to invalid github gist link
+2025-03-20 13:29:54 collect.py [line:71] INFO: start checking whether existing subscriptions have expired
+2025-03-20 13:29:54 collect.py [line:113] INFO: load exists subscription finished, count: 0
+2025-03-20 13:29:56 crawl.py [line:1430] INFO: [TelegramCrawl] starting crawl from telegram, channel: allv2board, pages: 19
+2025-03-20 13:29:56 crawl.py [line:1390] INFO: [AirPortCrawl] start collect airport, url: https://t.me/s/allv2board?before=369
+2025-03-20 13:29:56 crawl.py [line:1390] INFO: [AirPortCrawl] start collect airport, url: https://t.me/s/allv2board?before=349
+2025-03-20 13:29:56 crawl.py [line:1390] INFO: [AirPortCrawl] start collect airport, url: https://t.me/s/allv2board?before=329
+2025-03-20 13:29:56 crawl.py [line:1390] INFO: [AirPortCrawl] start collect airport, url: https://t.me/s/allv2board?before=309
+2025-03-20 13:29:56 crawl.py [line:1390] INFO: [AirPortCrawl] start collect airport, url: https://t.me/s/allv2board?before=289
+2025-03-20 13:29:56 crawl.py [line:1390] INFO: [AirPortCrawl] start collect airport, url: https://t.me/s/allv2board?before=269
+2025-03-20 13:29:56 crawl.py [line:1390] INFO: [AirPortCrawl] start collect airport, url: https://t.me/s/allv2board?before=249
+2025-03-20 13:29:56 crawl.py [line:1390] INFO: [AirPortCrawl] start collect airport, url: https://t.me/s/allv2board?before=229
+2025-03-20 13:29:56 crawl.py [line:1390] INFO: [AirPortCrawl] start collect airport, url: https://t.me/s/allv2board?before=209
+2025-03-20 13:29:56 crawl.py [line:1390] INFO: [AirPortCrawl] start collect airport, url: https://t.me/s/allv2board?before=189
+2025-03-20 13:29:56 crawl.py [line:1390] INFO: [AirPortCrawl] start collect airport, url: https://t.me/s/allv2board?before=169
+2025-03-20 13:29:56 crawl.py [line:1390] INFO: [AirPortCrawl] start collect airport, url: https://t.me/s/allv2board?before=149
+2025-03-20 13:29:56 crawl.py [line:1390] INFO: [AirPortCrawl] start collect airport, url: https://t.me/s/allv2board?before=129
+2025-03-20 13:29:56 crawl.py [line:1390] INFO: [AirPortCrawl] start collect airport, url: https://t.me/s/allv2board?before=109
+2025-03-20 13:29:56 crawl.py [line:1390] INFO: [AirPortCrawl] start collect airport, url: https://t.me/s/allv2board?before=89
+2025-03-20 13:29:57 crawl.py [line:1390] INFO: [AirPortCrawl] start collect airport, url: https://t.me/s/allv2board?before=69
+2025-03-20 13:29:57 crawl.py [line:1390] INFO: [AirPortCrawl] start collect airport, url: https://t.me/s/allv2board?before=49
+2025-03-20 13:29:57 crawl.py [line:1390] INFO: [AirPortCrawl] start collect airport, url: https://t.me/s/allv2board?before=29
+2025-03-20 13:29:57 crawl.py [line:1390] INFO: [AirPortCrawl] start collect airport, url: https://t.me/s/allv2board?before=9
+2025-03-20 13:29:58 utils.py [line:558] INFO: [Concurrent] multi-threaded execute [extract_airport_site] finished, count: 19, cost: 1.81s
+2025-03-20 13:30:06 utils.py [line:558] INFO: [Concurrent] multi-threaded execute [get_redirect_url] finished, count: 14, cost: 8.04s
+2025-03-20 13:30:12 utils.py [line:558] INFO: [Concurrent] multi-threaded execute [run_crawl] finished, count: 12, cost: 0.12s
+2025-03-20 13:30:12 crawl.py [line:1731] INFO: [AirPortCollector] fetched 220 airport, start extracting real routing addresses
+2025-03-20 13:31:01 utils.py [line:558] INFO: [Concurrent] multi-threaded execute [extract_backend_url] finished, count: 220, cost: 48.56s
+2025-03-20 13:31:01 crawl.py [line:1743] INFO: [AirPortCollector] extract real base url finished, start to check it now
+2025-03-20 13:31:41 utils.py [line:558] INFO: [Concurrent] multi-threaded execute [validate_domain] finished, count: 154, cost: 40.33s
+2025-03-20 13:31:41 crawl.py [line:1755] INFO: [AirPortCollector] finished collect airport, availables: 35
+2025-03-20 13:31:41 collect.py [line:267] INFO: start generate subscribes information, tasks: 35
+2025-03-20 13:31:41 workflow.py [line:105] INFO: start fetch proxy: name=[xjyjctop-brl6]	id=[1]	domain=[https://xjyjc.top]
+2025-03-20 13:31:41 workflow.py [line:105] INFO: start fetch proxy: name=[hssl8088icu-2fge]	id=[1]	domain=[https://hssl8088.icu]
+2025-03-20 13:31:41 workflow.py [line:105] INFO: start fetch proxy: name=[svipxingheyunsbs-bzpjy]	id=[1]	domain=[https://svip.xingheyun.sbs]
+2025-03-20 13:31:41 workflow.py [line:105] INFO: start fetch proxy: name=[cloudgougoulive-lfn]	id=[1]	domain=[https://cloud.gougou.live]
+2025-03-20 13:31:41 workflow.py [line:105] INFO: start fetch proxy: name=[chuifengjitop-u03]	id=[1]	domain=[https://chuifengji.top]
+2025-03-20 13:31:41 workflow.py [line:105] INFO: start fetch proxy: name=[tuanzixyz-7os9]	id=[1]	domain=[https://tuanzi.xyz]
+2025-03-20 13:31:41 workflow.py [line:105] INFO: start fetch proxy: name=[changyouVPNtop-xey]	id=[1]	domain=[http://changyouVPN.top]
+2025-03-20 13:31:41 workflow.py [line:105] INFO: start fetch proxy: name=[wuxianjctop-h7b]	id=[1]	domain=[http://wuxianjc.top]
+2025-03-20 13:31:41 workflow.py [line:105] INFO: start fetch proxy: name=[kuailejcxyz-wkmbp]	id=[1]	domain=[http://kuailejc.xyz]
+2025-03-20 13:31:41 workflow.py [line:105] INFO: start fetch proxy: name=[666vxyz-k9j]	id=[1]	domain=[https://666v.xyz]
+2025-03-20 13:31:41 workflow.py [line:105] INFO: start fetch proxy: name=[thecomtoday-2ahp]	id=[1]	domain=[https://thecom.today]
+2025-03-20 13:31:41 workflow.py [line:105] INFO: start fetch proxy: name=[kuailejcxyz-yskvg]	id=[1]	domain=[https://kuailejc.xyz]
+2025-03-20 13:31:41 workflow.py [line:105] INFO: start fetch proxy: name=[pmy666xyz-ortiw]	id=[1]	domain=[https://pmy666.xyz]
+2025-03-20 13:31:41 workflow.py [line:105] INFO: start fetch proxy: name=[bailiansite-rw3]	id=[1]	domain=[http://bailian.site]
+2025-03-20 13:31:41 workflow.py [line:105] INFO: start fetch proxy: name=[gladosspace-odb]	id=[1]	domain=[https://glados.space]
+2025-03-20 13:31:41 workflow.py [line:105] INFO: start fetch proxy: name=[cyousucc-1n4]	id=[1]	domain=[https://c.yousu.cc]
+2025-03-20 13:31:41 workflow.py [line:105] INFO: start fetch proxy: name=[liulangdiqiucc-4k07]	id=[1]	domain=[https://liulangdiqiu.cc]
+2025-03-20 13:31:41 workflow.py [line:105] INFO: start fetch proxy: name=[xueyejiasucom-cqe9n]	id=[1]	domain=[http://xueyejiasu.com]
+2025-03-20 13:31:41 workflow.py [line:105] INFO: start fetch proxy: name=[panelkeleofficialcom-geq]	id=[1]	domain=[https://panel.keleofficial.com]
+2025-03-20 13:31:41 workflow.py [line:105] INFO: start fetch proxy: name=[a02qytvipaffpro-4ktex]	id=[1]	domain=[https://a02.qytvipaff.pro]
+2025-03-20 13:31:41 workflow.py [line:105] INFO: start fetch proxy: name=[fengwopro-6f1]	id=[1]	domain=[https://fengwo.pro]
+2025-03-20 13:31:41 workflow.py [line:105] INFO: start fetch proxy: name=[akpyunlive-9sk]	id=[1]	domain=[https://a.kpyun.live]
+2025-03-20 13:31:41 workflow.py [line:105] INFO: start fetch proxy: name=[themeservercutecloudonede-mgv]	id=[1]	domain=[https://themeserver.cutecloudone.de]
+2025-03-20 13:31:41 workflow.py [line:105] INFO: start fetch proxy: name=[巅峰机场com-nk6]	id=[1]	domain=[https://巅峰机场.com]
+2025-03-20 13:31:41 workflow.py [line:105] INFO: start fetch proxy: name=[优惠机场com-gl8]	id=[1]	domain=[https://优惠机场.com]
+2025-03-20 13:31:41 workflow.py [line:105] INFO: start fetch proxy: name=[aimanmanme-5hmkj]	id=[1]	domain=[https://aimanman.me]
+2025-03-20 13:31:41 workflow.py [line:105] INFO: start fetch proxy: name=[panelofonetnet-w358v]	id=[1]	domain=[https://panel.ofonet.net]
+2025-03-20 13:31:41 workflow.py [line:105] INFO: start fetch proxy: name=[五分机场live-dl4]	id=[1]	domain=[https://五分机场.live]
+2025-03-20 13:31:41 workflow.py [line:105] INFO: start fetch proxy: name=[snanguacom-yzcn]	id=[1]	domain=[https://snangua.com]
+2025-03-20 13:31:41 workflow.py [line:105] INFO: start fetch proxy: name=[便宜机场co-ywxho]	id=[1]	domain=[https://便宜机场.co]
+2025-03-20 13:31:41 workflow.py [line:105] INFO: start fetch proxy: name=[yunduanjctop-9h7]	id=[1]	domain=[https://yunduanjc.top]
+2025-03-20 13:31:41 workflow.py [line:105] INFO: start fetch proxy: name=[changyouvpntop-fw1uv]	id=[1]	domain=[https://changyouvpn.top]
+2025-03-20 13:31:41 workflow.py [line:105] INFO: start fetch proxy: name=[xn--wtq35pfyd55oco-okx1f]	id=[1]	domain=[https://xn--wtq35pfyd55o.co]
+2025-03-20 13:31:41 workflow.py [line:105] INFO: start fetch proxy: name=[xn--4oq11ryli3rgcom-f1ve2]	id=[1]	domain=[https://xn--4oq11ryli3rg.com]
+2025-03-20 13:31:41 workflow.py [line:105] INFO: start fetch proxy: name=[wwwkuaidog006top-m7dvo]	id=[1]	domain=[https://www.kuaidog006.top]
+2025-03-20 13:31:41 airport.py [line:276] INFO: achieved max retry when register, domain: https://五分机场.live
+2025-03-20 13:31:41 airport.py [line:276] INFO: achieved max retry when register, domain: https://巅峰机场.com
+2025-03-20 13:31:41 airport.py [line:276] INFO: achieved max retry when register, domain: https://优惠机场.com
+2025-03-20 13:31:41 airport.py [line:276] INFO: achieved max retry when register, domain: http://wuxianjc.top
+2025-03-20 13:31:41 airport.py [line:276] INFO: achieved max retry when register, domain: https://hssl8088.icu
+2025-03-20 13:31:41 airport.py [line:276] INFO: achieved max retry when register, domain: http://kuailejc.xyz
+2025-03-20 13:31:41 airport.py [line:361] INFO: not exists free plan, domain: https://kuailejc.xyz
+2025-03-20 13:31:41 airport.py [line:361] INFO: not exists free plan, domain: https://thecom.today
+2025-03-20 13:31:41 airport.py [line:276] INFO: achieved max retry when register, domain: https://changyouvpn.top
+2025-03-20 13:31:41 airport.py [line:276] INFO: achieved max retry when register, domain: https://便宜机场.co
+2025-03-20 13:31:41 airport.py [line:276] INFO: achieved max retry when register, domain: https://yunduanjc.top
+2025-03-20 13:31:41 airport.py [line:361] INFO: not exists free plan, domain: https://pmy666.xyz
+2025-03-20 13:31:42 renewal.py [line:456] ERROR: fetch free plans error, cookies and authorization is empty, domain: https://glados.space
+2025-03-20 13:31:42 airport.py [line:361] INFO: not exists free plan, domain: https://glados.space
+2025-03-20 13:31:42 renewal.py [line:554] ERROR: query subscribe information error, cookies and authorization is empty, domain: https://glados.space
+2025-03-20 13:31:42 airport.py [line:335] ERROR: [RegisterError] cannot get token when register, domain: https://glados.space
+2025-03-20 13:31:42 airport.py [line:276] INFO: achieved max retry when register, domain: https://cloud.gougou.live
+2025-03-20 13:31:42 airport.py [line:276] INFO: achieved max retry when register, domain: https://snangua.com
+2025-03-20 13:31:42 airport.py [line:276] INFO: achieved max retry when register, domain: http://changyouVPN.top
+2025-03-20 13:31:42 airport.py [line:276] INFO: achieved max retry when register, domain: https://tuanzi.xyz
+2025-03-20 13:31:42 airport.py [line:361] INFO: not exists free plan, domain: https://chuifengji.top
+2025-03-20 13:31:42 airport.py [line:276] INFO: achieved max retry when register, domain: https://666v.xyz
+2025-03-20 13:31:42 airport.py [line:361] INFO: not exists free plan, domain: https://fengwo.pro
+2025-03-20 13:31:42 airport.py [line:276] INFO: achieved max retry when register, domain: https://xn--4oq11ryli3rg.com
+2025-03-20 13:31:42 airport.py [line:276] INFO: achieved max retry when register, domain: http://bailian.site
+2025-03-20 13:31:42 airport.py [line:276] INFO: achieved max retry when register, domain: https://aimanman.me
+2025-03-20 13:31:42 airport.py [line:361] INFO: not exists free plan, domain: https://xjyjc.top
+2025-03-20 13:31:42 airport.py [line:276] INFO: achieved max retry when register, domain: https://c.yousu.cc
+2025-03-20 13:31:42 airport.py [line:276] INFO: achieved max retry when register, domain: https://xn--wtq35pfyd55o.co
+2025-03-20 13:31:42 airport.py [line:276] INFO: achieved max retry when register, domain: https://panel.keleofficial.com
+2025-03-20 13:31:43 airport.py [line:361] INFO: not exists free plan, domain: https://liulangdiqiu.cc
+2025-03-20 13:31:43 airport.py [line:364] INFO: found free plan, domain: https://www.kuaidog006.top, plan: Plan(plan_id=12, package='month_price', renew=True, reset=False, trafficflow=100)
+2025-03-20 13:31:43 airport.py [line:361] INFO: not exists free plan, domain: http://xueyejiasu.com
+2025-03-20 13:31:43 airport.py [line:276] INFO: achieved max retry when register, domain: https://themeserver.cutecloudone.de
+2025-03-20 13:31:44 airport.py [line:361] INFO: not exists free plan, domain: https://a02.qytvipaff.pro
+2025-03-20 13:31:44 airport.py [line:276] INFO: achieved max retry when register, domain: https://panel.ofonet.net
+2025-03-20 13:31:45 renewal.py [line:607] ERROR: cannot get subscribe information, domain: https://a02.qytvipaff.pro, response: <!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>访问提示</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .container {
+            background-color: #ffffff;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        h1 {
+            color: #333333;
+        }
+        p {
+            color: #555555;
+            margin: 20px 0;
+        }
+        a.button {
+            display: inline-block;
+            padding: 12px 24px;
+            background-color: #007BFF;
+            color: #ffffff;
+            text-decoration: none;
+            border-radius: 4px;
+            transition: background-color 0.3s ease;
+        }
+        a.button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>欢迎访问！</h1>
+        <p>要打开网站，请点击下方按钮。</p>
+        <a href="https://qytnody.qingyunti.cc" class="button">点击前往官网</a>
+    </div>
+</body>
+</html>
+
+2025-03-20 13:31:45 airport.py [line:276] INFO: achieved max retry when register, domain: https://svip.xingheyun.sbs
+2025-03-20 13:31:45 airport.py [line:361] INFO: not exists free plan, domain: https://a.kpyun.live
+2025-03-20 13:31:45 airport.py [line:394] INFO: [RegisterSuccess] register successed, domain: https://www.kuaidog006.top
+2025-03-20 13:31:46 airport.py [line:782] INFO: subconverter completed, artifact: [a02qytvipaffpro-4ktex-i1L]	success=[False]
+2025-03-20 13:31:46 workflow.py [line:140] INFO: finished fetch proxy: name=[xueyejiasucom-cqe9n]	username=[dAiUqtYvVg@qq.com]	domain=[http://xueyejiasu.com]	count=[12]
+2025-03-20 13:31:47 utils.py [line:558] INFO: [Concurrent] multi-threaded execute [executewrapper] finished, count: 35, cost: 6.03s
+2025-03-20 13:31:47 collect.py [line:384] INFO: found 12 proxies, save it to ['/home/runner/work/Mo/Mo/data/clash.yaml', '/home/runner/work/Mo/Mo/data/v2ray.txt']
