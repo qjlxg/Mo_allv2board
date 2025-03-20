@@ -1,2 +1,1 @@
-http://sub.kjdjakskl.cyou/api/v1/client/subscribe?token=ff4522414c115afe8acc12f19ed935f8
-https://www.kuaidog010.top/api/v1/client/subscribe?token=eba0e1c5873a513b83b55e1c750d0494
+http://sub.kjdjakskl.cyou/api/v1/client/subscribe?token=9565e9189b688d33ec71e8ca88d6b633
