@@ -1,6 +1,1 @@
-http://sub.kjdjakskl.cyou/api/v1/client/subscribe?token=de4bf4789ef3176320fda8edcb7a038f
-https://api.heima2u.com/api/v1/client/subscribe?token=a3af4705af094c07758e5993b8fecec9
-https://tinme-gehbdbumwd.cn-hangzhou.fcapp.run/api/v1/client/subscribe?token=6025cde6a29e31411b9190395480c8f6
-https://dy.lime5.xyz/api/v1/client/subscribe?token=7683c01317439961bb4bc8408fd42892
-https://subscribe-1.newbee8.monster/api/v1/client/subscribe?token=363a0e4bee845e3db9fc35ebb021ee65
-https://subscribe-1.newbee8.monster/api/v1/client/subscribe?token=6c0d1fd26425e01d2372c7f6107faa35
+
