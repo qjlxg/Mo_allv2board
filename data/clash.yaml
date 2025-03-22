@@ -5,430 +5,91 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🇸🇬 新加坡03-隧道-1A, server: gzdx.newbee8.me, port: 35661, type: vmess, uuid: 8db2c99b-b772-4503-804b-f7142473d446, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇨🇳 TW 台湾 102, server: ap-e3.nexifyspark.com, port: 21003, type: ss, cipher: chacha20-ietf-poly1305, password: 40f1fc1c-d89e-4b3d-a4c6-a88588d7b1a6, udp: true}
-  - {name: 🇭🇰 香港八, server: 08.kjahbg.info, port: 30614, type: ss, cipher: aes-128-gcm, password: f004bc5e-289a-4108-8d8b-38a5cc4c5c04, udp: true}
-  - {name: 🇺🇸 美国六, server: 006.kjahbg.info, port: 30620, type: ss, cipher: aes-128-gcm, password: f004bc5e-289a-4108-8d8b-38a5cc4c5c04, udp: true}
-  - {name: 🇯🇵 日本01-1C, server: gy.666666222.shop, port: 20002, type: ss, cipher: chacha20-ietf-poly1305, password: da5e8403-0c26-4bde-866b-7136a8ee6907, udp: true}
-  - {name: 🇯🇵 日本02, server: gy.666666222.shop, port: 20004, type: ss, cipher: chacha20-ietf-poly1305, password: da5e8403-0c26-4bde-866b-7136a8ee6907, udp: true}
-  - {name: 🇸🇬 新加坡四, server: 04.kjahbg.info, port: 30624, type: ss, cipher: aes-128-gcm, password: f004bc5e-289a-4108-8d8b-38a5cc4c5c04, udp: true}
-  - {name: 🇺🇸 US 美国 105, server: useast.nexifyspark.com, port: 16013, type: ss, cipher: chacha20-ietf-poly1305, password: 40f1fc1c-d89e-4b3d-a4c6-a88588d7b1a6, udp: true}
-  - {name: 🇦🇺 澳大利亚02-1B, server: gzdx.newbee8.me, port: 35666, type: vmess, uuid: 534b0472-b9c4-43d9-9365-1c05427e83c3, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇭🇰 香港01, server: gy.666666222.shop, port: 34338, type: ss, cipher: chacha20-ietf-poly1305, password: da5e8403-0c26-4bde-866b-7136a8ee6907, udp: true}
-  - {name: 🇺🇸 美国-1B, server: 45.83.140.22, port: 658, type: trojan, password: 1097bc48-c04a-433c-b85c-bb752628392a, skip-cert-verify: true, udp: true}
-  - {name: 🇮🇳 印度03-隧道-1B, server: gzdx.newbee8.me, port: 35665, type: vmess, uuid: 534b0472-b9c4-43d9-9365-1c05427e83c3, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇸🇬 SG 新加坡 003, server: singad.nexifyspark.com, port: 21010, type: ss, cipher: chacha20-ietf-poly1305, password: 40f1fc1c-d89e-4b3d-a4c6-a88588d7b1a6, udp: true}
-  - {name: 🇻🇳 VN 越南 000, server: singad.nexifyspark.com, port: 21007, type: ss, cipher: chacha20-ietf-poly1305, password: 40f1fc1c-d89e-4b3d-a4c6-a88588d7b1a6, udp: true}
-  - {name: 🇺🇸 美国一, server: 001.kjahbg.info, port: 30615, type: ss, cipher: aes-128-gcm, password: f004bc5e-289a-4108-8d8b-38a5cc4c5c04, udp: true}
-  - {name: 🇸🇬 新加坡03-隧道-1B, server: gzdx.newbee8.me, port: 35661, type: vmess, uuid: 534b0472-b9c4-43d9-9365-1c05427e83c3, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇺🇸 美国原生02-1B, server: gzdx.newbee8.me, port: 35659, type: vmess, uuid: 534b0472-b9c4-43d9-9365-1c05427e83c3, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇭🇰 HK 香港 091, server: as-c6.nexifyspark.com, port: 30501, type: ss, cipher: chacha20-ietf-poly1305, password: 40f1fc1c-d89e-4b3d-a4c6-a88588d7b1a6, udp: true}
-  - {name: 🇭🇰 香港 中转-1A, server: vip.baima360.com, port: 65519, type: ss, cipher: chacha20-ietf-poly1305, password: 1097bc48-c04a-433c-b85c-bb752628392a, udp: true}
-  - {name: 🇮🇳 印度03-隧道-1A, server: gzdx.newbee8.me, port: 35665, type: vmess, uuid: 8db2c99b-b772-4503-804b-f7142473d446, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇭🇰 广港专线-美国04-1B, server: gzdx.newbee8.me, port: 35664, type: vmess, uuid: 534b0472-b9c4-43d9-9365-1c05427e83c3, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇺🇸 美国01-1A, server: hn3x.newbee8.me, port: 22255, type: vmess, uuid: 8db2c99b-b772-4503-804b-f7142473d446, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇭🇰 香港五, server: 05.kjahbg.info, port: 30611, type: ss, cipher: aes-128-gcm, password: f004bc5e-289a-4108-8d8b-38a5cc4c5c04, udp: true}
-  - {name: 🇨🇳 台湾01, server: gy.666666222.shop, port: 47564, type: ss, cipher: chacha20-ietf-poly1305, password: da5e8403-0c26-4bde-866b-7136a8ee6907, udp: true}
-  - {name: 🇯🇵 日本03-隧道-1B, server: gzdx.newbee8.me, port: 35662, type: vmess, uuid: 534b0472-b9c4-43d9-9365-1c05427e83c3, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇦🇺 澳大利亚02-1A, server: gzdx.newbee8.me, port: 35666, type: vmess, uuid: 8db2c99b-b772-4503-804b-f7142473d446, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇸🇬 新加坡五, server: 05.kjahbg.info, port: 30625, type: ss, cipher: aes-128-gcm, password: f004bc5e-289a-4108-8d8b-38a5cc4c5c04, udp: true}
-  - {name: 🇷🇺 俄罗斯 中转, server: vip.baima360.com, port: 23499, type: ss, cipher: chacha20-ietf-poly1305, password: 1097bc48-c04a-433c-b85c-bb752628392a, udp: true}
-  - {name: 🇯🇵 日本01-1B, server: hn3x.newbee8.me, port: 22253, type: vmess, uuid: 534b0472-b9c4-43d9-9365-1c05427e83c3, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇭🇰 HK 香港 030, server: as-c6.nexifyspark.com, port: 30508, type: ss, cipher: chacha20-ietf-poly1305, password: 40f1fc1c-d89e-4b3d-a4c6-a88588d7b1a6, udp: true}
-  - {name: 🇰🇷 韩国一, server: 001.kjahbg.info, port: 30630, type: ss, cipher: aes-128-gcm, password: f004bc5e-289a-4108-8d8b-38a5cc4c5c04, udp: true}
-  - {name: 🇭🇰 香港05-隧道-1B, server: gzdx.newbee8.me, port: 35660, type: vmess, uuid: 534b0472-b9c4-43d9-9365-1c05427e83c3, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇺🇸 美国-1A, server: pop.ede9314c-61e5-4c9a-8e41-275a29f5120e.heima360.cc, port: 443, type: trojan, password: 1097bc48-c04a-433c-b85c-bb752628392a, udp: true}
-  - {name: 🇺🇸 US 美国 103, server: uswest.nexifyspark.com, port: 16012, type: ss, cipher: chacha20-ietf-poly1305, password: 40f1fc1c-d89e-4b3d-a4c6-a88588d7b1a6, udp: true}
-  - {name: 🇺🇸 美国原生01-1B, server: hn3x.newbee8.me, port: 22257, type: vmess, uuid: 534b0472-b9c4-43d9-9365-1c05427e83c3, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇭🇰 广港专线-美国04-1A, server: gzdx.newbee8.me, port: 35664, type: vmess, uuid: 8db2c99b-b772-4503-804b-f7142473d446, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇨🇳 台湾 1, server: gy.666666222.shop, port: 20032, type: ss, cipher: chacha20-ietf-poly1305, password: da5e8403-0c26-4bde-866b-7136a8ee6907, udp: true}
-  - {name: 🇺🇸 US 美国 106, server: useast.nexifyspark.com, port: 16014, type: ss, cipher: chacha20-ietf-poly1305, password: 40f1fc1c-d89e-4b3d-a4c6-a88588d7b1a6, udp: true}
-  - {name: 🇯🇵 JP 日本 006, server: ap-e1.nexifyspark.com, port: 30605, type: ss, cipher: chacha20-ietf-poly1305, password: 40f1fc1c-d89e-4b3d-a4c6-a88588d7b1a6, udp: true}
-  - {name: 🇺🇸 美国原生01-1A, server: hn3x.newbee8.me, port: 22257, type: vmess, uuid: 8db2c99b-b772-4503-804b-f7142473d446, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇨🇦 CA 加拿大 005, server: useast.nexifyspark.com, port: 16018, type: ss, cipher: chacha20-ietf-poly1305, password: 40f1fc1c-d89e-4b3d-a4c6-a88588d7b1a6, udp: true}
-  - {name: 节点购买地址, server: expa.nexifyspark.com, port: 17133, type: vmess, uuid: 40f1fc1c-d89e-4b3d-a4c6-a88588d7b1a6, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /Microsoft, headers: {Host: expa.nexifyspark.com}}, udp: true}
-  - {name: 🇩🇪 DE 德国 112, server: reg2.nexifyspark.com, port: 34901, type: ss, cipher: chacha20-ietf-poly1305, password: 40f1fc1c-d89e-4b3d-a4c6-a88588d7b1a6, udp: true}
-  - {name: 🇭🇰 香港六, server: 06.kjahbg.info, port: 30612, type: ss, cipher: aes-128-gcm, password: f004bc5e-289a-4108-8d8b-38a5cc4c5c04, udp: true}
-  - {name: 🇺🇸 美国三, server: 003.kjahbg.info, port: 30617, type: ss, cipher: aes-128-gcm, password: f004bc5e-289a-4108-8d8b-38a5cc4c5c04, udp: true}
-  - {name: 🇭🇰 香港02, server: gy.666666222.shop, port: 20035, type: ss, cipher: chacha20-ietf-poly1305, password: da5e8403-0c26-4bde-866b-7136a8ee6907, udp: true}
-  - {name: 🇭🇰 香港05-隧道-1A, server: gzdx.newbee8.me, port: 35660, type: vmess, uuid: 8db2c99b-b772-4503-804b-f7142473d446, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇯🇵 日本03, server: gy.666666222.shop, port: 20006, type: ss, cipher: chacha20-ietf-poly1305, password: da5e8403-0c26-4bde-866b-7136a8ee6907, udp: true}
-  - {name: 🇨🇳 TW 台湾 101, server: ap-e3.nexifyspark.com, port: 21001, type: ss, cipher: chacha20-ietf-poly1305, password: 40f1fc1c-d89e-4b3d-a4c6-a88588d7b1a6, udp: true}
-  - {name: 🇮🇳 印度01-1A, server: hn3x.newbee8.me, port: 22256, type: vmess, uuid: 8db2c99b-b772-4503-804b-f7142473d446, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇮🇳 IN 印度 201, server: reg1.nexifyspark.com, port: 10911, type: ss, cipher: chacha20-ietf-poly1305, password: 40f1fc1c-d89e-4b3d-a4c6-a88588d7b1a6, udp: true}
-  - {name: 🇭🇰 香港03, server: gy.666666222.shop, port: 20052, type: ss, cipher: chacha20-ietf-poly1305, password: da5e8403-0c26-4bde-866b-7136a8ee6907, udp: true}
-  - {name: 🇰🇷 KR 韩国 053, server: ap-e2.nexifyspark.com, port: 21006, type: ss, cipher: chacha20-ietf-poly1305, password: 40f1fc1c-d89e-4b3d-a4c6-a88588d7b1a6, udp: true}
-  - {name: 🇮🇹 IT 意大利 185, server: reg2.nexifyspark.com, port: 34904, type: ss, cipher: chacha20-ietf-poly1305, password: 40f1fc1c-d89e-4b3d-a4c6-a88588d7b1a6, udp: true}
-  - {name: 🇭🇰 HK 香港 089, server: as-c6.nexifyspark.com, port: 30504, type: ss, cipher: chacha20-ietf-poly1305, password: 40f1fc1c-d89e-4b3d-a4c6-a88588d7b1a6, udp: true}
-  - {name: YN-CDV, server: 001.kjahbg.info, port: 30601, type: ss, cipher: aes-128-gcm, password: f004bc5e-289a-4108-8d8b-38a5cc4c5c04, udp: true}
-  - {name: 🇺🇸 美国 纽约01, server: gy.666666222.shop, port: 20013, type: ss, cipher: chacha20-ietf-poly1305, password: da5e8403-0c26-4bde-866b-7136a8ee6907, udp: true}
-  - {name: 🇯🇵 日本, server: vip.baima360.com, port: 15888, type: ss, cipher: chacha20-ietf-poly1305, password: 1097bc48-c04a-433c-b85c-bb752628392a, udp: true}
-  - {name: 🇯🇵 日本三, server: 003.kjahbg.info, port: 30603, type: ss, cipher: aes-128-gcm, password: f004bc5e-289a-4108-8d8b-38a5cc4c5c04, udp: true}
-  - {name: 🇸🇬 新加坡01-1B, server: hn3x.newbee8.me, port: 22252, type: vmess, uuid: 534b0472-b9c4-43d9-9365-1c05427e83c3, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇧🇷 BR 巴西 130, server: reg3.nexifyspark.com, port: 20062, type: ss, cipher: chacha20-ietf-poly1305, password: 40f1fc1c-d89e-4b3d-a4c6-a88588d7b1a6, udp: true}
-  - {name: 🇯🇵 日本五, server: 005.kjahbg.info, port: 30605, type: ss, cipher: aes-128-gcm, password: f004bc5e-289a-4108-8d8b-38a5cc4c5c04, udp: true}
-  - {name: 🇺🇸 美国 中转-1B, server: vip.baima360.com, port: 20387, type: ss, cipher: chacha20-ietf-poly1305, password: 1097bc48-c04a-433c-b85c-bb752628392a, udp: true}
-  - {name: 🇲🇾 马来西亚-1A, server: 103.75.189.152, port: 100, type: trojan, password: 1097bc48-c04a-433c-b85c-bb752628392a, skip-cert-verify: true, udp: true}
-  - {name: 🇫🇷 FR 法国 020, server: reg2.nexifyspark.com, port: 34903, type: ss, cipher: chacha20-ietf-poly1305, password: 40f1fc1c-d89e-4b3d-a4c6-a88588d7b1a6, udp: true}
-  - {name: 🇭🇰 香港 中转-1B, server: vip.baima360.com, port: 36511, type: ss, cipher: chacha20-ietf-poly1305, password: 1097bc48-c04a-433c-b85c-bb752628392a, udp: true}
-  - {name: 🇮🇳 印度01-1B, server: hn3x.newbee8.me, port: 22256, type: vmess, uuid: 534b0472-b9c4-43d9-9365-1c05427e83c3, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇺🇸 US 美国 101, server: uswest.nexifyspark.com, port: 16010, type: ss, cipher: chacha20-ietf-poly1305, password: 40f1fc1c-d89e-4b3d-a4c6-a88588d7b1a6, udp: true}
-  - {name: 🇹🇭 TH 泰国 000, server: sgwest.nexifyspark.com, port: 21005, type: ss, cipher: chacha20-ietf-poly1305, password: 40f1fc1c-d89e-4b3d-a4c6-a88588d7b1a6, udp: true}
-  - {name: 🇩🇪 德国 中转, server: vip.baima360.com, port: 55997, type: ss, cipher: chacha20-ietf-poly1305, password: 1097bc48-c04a-433c-b85c-bb752628392a, udp: true}
-  - {name: 🇺🇸 美国 中转-1A, server: vip.baima360.com, port: 17941, type: ss, cipher: chacha20-ietf-poly1305, password: 1097bc48-c04a-433c-b85c-bb752628392a, udp: true}
-  - {name: 🇧🇷 巴西 中转, server: vip.baima360.com, port: 30752, type: ss, cipher: chacha20-ietf-poly1305, password: 1097bc48-c04a-433c-b85c-bb752628392a, udp: true}
-  - {name: 🇭🇰 香港, server: pop.05e2a910-30aa-49b7-8a4c-c548745c3a2d.heima360.cc, port: 443, type: trojan, password: 1097bc48-c04a-433c-b85c-bb752628392a, udp: true}
-  - {name: 🇺🇸 US 美国 102, server: uswest.nexifyspark.com, port: 16011, type: ss, cipher: chacha20-ietf-poly1305, password: 40f1fc1c-d89e-4b3d-a4c6-a88588d7b1a6, udp: true}
-  - {name: 🇳🇱 NL 荷兰 001, server: ozwest.nexifyspark.com, port: 34906, type: ss, cipher: chacha20-ietf-poly1305, password: 40f1fc1c-d89e-4b3d-a4c6-a88588d7b1a6, udp: true}
-  - {name: 🇺🇸 US 美国 139, server: useast.nexifyspark.com, port: 16015, type: ss, cipher: chacha20-ietf-poly1305, password: 40f1fc1c-d89e-4b3d-a4c6-a88588d7b1a6, udp: true}
-  - {name: 🇭🇰 香港三, server: 03.kjahbg.info, port: 30609, type: ss, cipher: aes-128-gcm, password: f004bc5e-289a-4108-8d8b-38a5cc4c5c04, udp: true}
-  - {name: 🇬🇧 GB 英国 165, server: eulondon.nexifyspark.com, port: 34402, type: ss, cipher: chacha20-ietf-poly1305, password: 40f1fc1c-d89e-4b3d-a4c6-a88588d7b1a6, udp: true}
-  - {name: 🇯🇵 日本六, server: 006.kjahbg.info, port: 30606, type: ss, cipher: aes-128-gcm, password: f004bc5e-289a-4108-8d8b-38a5cc4c5c04, udp: true}
-  - {name: 🇬🇧 GB 英国 160, server: eulondon.nexifyspark.com, port: 34401, type: ss, cipher: chacha20-ietf-poly1305, password: 40f1fc1c-d89e-4b3d-a4c6-a88588d7b1a6, udp: true}
-  - {name: 🇯🇵 JP 日本 010, server: ap-e1.nexifyspark.com, port: 30606, type: ss, cipher: chacha20-ietf-poly1305, password: 40f1fc1c-d89e-4b3d-a4c6-a88588d7b1a6, udp: true}
-  - {name: 🇯🇵 日本四, server: 004.kjahbg.info, port: 30604, type: ss, cipher: aes-128-gcm, password: f004bc5e-289a-4108-8d8b-38a5cc4c5c04, udp: true}
-  - {name: 🇹🇷 TR 土耳其 011, server: reg3.nexifyspark.com, port: 19008, type: ss, cipher: chacha20-ietf-poly1305, password: 40f1fc1c-d89e-4b3d-a4c6-a88588d7b1a6, udp: true}
-  - {name: 🇭🇰 HK 香港 045, server: as-c6.nexifyspark.com, port: 30502, type: ss, cipher: chacha20-ietf-poly1305, password: 40f1fc1c-d89e-4b3d-a4c6-a88588d7b1a6, udp: true}
-  - {name: 🇰🇷 KR 韩国 200, server: ap-e2.nexifyspark.com, port: 21004, type: ss, cipher: chacha20-ietf-poly1305, password: 40f1fc1c-d89e-4b3d-a4c6-a88588d7b1a6, udp: true}
-  - {name: 🇸🇬 SG 新加坡 052, server: sgwest.nexifyspark.com, port: 10352, type: ss, cipher: chacha20-ietf-poly1305, password: 40f1fc1c-d89e-4b3d-a4c6-a88588d7b1a6, udp: true}
-  - {name: 🇺🇸 美国五, server: 005.kjahbg.info, port: 30619, type: ss, cipher: aes-128-gcm, password: f004bc5e-289a-4108-8d8b-38a5cc4c5c04, udp: true}
-  - {name: 🇭🇰 HK 香港 067, server: as-c6.nexifyspark.com, port: 30503, type: ss, cipher: chacha20-ietf-poly1305, password: 40f1fc1c-d89e-4b3d-a4c6-a88588d7b1a6, udp: true}
-  - {name: 🇸🇬 SG 新加坡 002, server: singad.nexifyspark.com, port: 21009, type: ss, cipher: chacha20-ietf-poly1305, password: 40f1fc1c-d89e-4b3d-a4c6-a88588d7b1a6, udp: true}
-  - {name: 🇦🇺 澳大利亚01-1A, server: hn3x.newbee8.me, port: 22258, type: vmess, uuid: 8db2c99b-b772-4503-804b-f7142473d446, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇨🇳 TW 台湾 050, server: ap-e3.nexifyspark.com, port: 21002, type: ss, cipher: chacha20-ietf-poly1305, password: 40f1fc1c-d89e-4b3d-a4c6-a88588d7b1a6, udp: true}
-  - {name: 🇩🇪 DE 德国 113, server: reg2.nexifyspark.com, port: 34902, type: ss, cipher: chacha20-ietf-poly1305, password: 40f1fc1c-d89e-4b3d-a4c6-a88588d7b1a6, udp: true}
-  - {name: 🇯🇵 日本二, server: 002.kjahbg.info, port: 30602, type: ss, cipher: aes-128-gcm, password: f004bc5e-289a-4108-8d8b-38a5cc4c5c04, udp: true}
-  - {name: 🇨🇳 台湾 中转, server: vip.baima360.com, port: 41004, type: ss, cipher: chacha20-ietf-poly1305, password: 1097bc48-c04a-433c-b85c-bb752628392a, udp: true}
-  - {name: 🇦🇪 AE 迪拜 112, server: mid.nexifyspark.com, port: 20071, type: ss, cipher: chacha20-ietf-poly1305, password: 40f1fc1c-d89e-4b3d-a4c6-a88588d7b1a6, udp: true}
-  - {name: 🇸🇬 SG 新加坡 051, server: singad.nexifyspark.com, port: 21008, type: ss, cipher: chacha20-ietf-poly1305, password: 40f1fc1c-d89e-4b3d-a4c6-a88588d7b1a6, udp: true}
-  - {name: 🇺🇸 美国四, server: 004.kjahbg.info, port: 30618, type: ss, cipher: aes-128-gcm, password: f004bc5e-289a-4108-8d8b-38a5cc4c5c04, udp: true}
-  - {name: 🇸🇬 新加坡二, server: 02.kjahbg.info, port: 30622, type: ss, cipher: aes-128-gcm, password: f004bc5e-289a-4108-8d8b-38a5cc4c5c04, udp: true}
-  - {name: 🇸🇬 新加坡01-1A, server: hn3x.newbee8.me, port: 22252, type: vmess, uuid: 8db2c99b-b772-4503-804b-f7142473d446, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇲🇾 马来西亚-1B, server: 103.75.188.189, port: 101, type: trojan, password: 1097bc48-c04a-433c-b85c-bb752628392a, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 新加坡六, server: 06.kjahbg.info, port: 30626, type: ss, cipher: aes-128-gcm, password: f004bc5e-289a-4108-8d8b-38a5cc4c5c04, udp: true}
-  - {name: 🇰🇷 韩国二, server: 002.kjahbg.info, port: 30631, type: ss, cipher: aes-128-gcm, password: f004bc5e-289a-4108-8d8b-38a5cc4c5c04, udp: true}
-  - {name: 🇭🇰 香港一, server: 01.kjahbg.info, port: 30607, type: ss, cipher: aes-128-gcm, password: f004bc5e-289a-4108-8d8b-38a5cc4c5c04, udp: true}
-  - {name: 🇺🇦 UA 乌克兰 002, server: reg3.nexifyspark.com, port: 19009, type: ss, cipher: chacha20-ietf-poly1305, password: 40f1fc1c-d89e-4b3d-a4c6-a88588d7b1a6, udp: true}
-  - {name: 🇺🇸 美国 纽约2, server: gy.666666222.shop, port: 20016, type: ss, cipher: chacha20-ietf-poly1305, password: da5e8403-0c26-4bde-866b-7136a8ee6907, udp: true}
-  - {name: 🇭🇰 香港二, server: 02.kjahbg.info, port: 30608, type: ss, cipher: aes-128-gcm, password: f004bc5e-289a-4108-8d8b-38a5cc4c5c04, udp: true}
-  - {name: 🇨🇳 台湾二, server: 02.kjahbg.info, port: 30629, type: ss, cipher: aes-128-gcm, password: f004bc5e-289a-4108-8d8b-38a5cc4c5c04, udp: true}
-  - {name: 🇭🇰 香港七, server: 07.kjahbg.info, port: 30613, type: ss, cipher: aes-128-gcm, password: f004bc5e-289a-4108-8d8b-38a5cc4c5c04, udp: true}
-  - {name: 🇸🇬 新加坡一, server: 01.kjahbg.info, port: 30621, type: ss, cipher: aes-128-gcm, password: f004bc5e-289a-4108-8d8b-38a5cc4c5c04, udp: true}
-  - {name: 🇨🇦 加拿大 中转, server: vip.baima360.com, port: 29292, type: ss, cipher: chacha20-ietf-poly1305, password: 1097bc48-c04a-433c-b85c-bb752628392a, udp: true}
-  - {name: 🇫🇷 法国 中转, server: vip.baima360.com, port: 35330, type: ss, cipher: chacha20-ietf-poly1305, password: 1097bc48-c04a-433c-b85c-bb752628392a, udp: true}
-  - {name: 🇺🇸 美国二, server: 002.kjahbg.info, port: 30616, type: ss, cipher: aes-128-gcm, password: f004bc5e-289a-4108-8d8b-38a5cc4c5c04, udp: true}
-  - {name: 🇸🇬 新加坡三, server: 03.kjahbg.info, port: 30623, type: ss, cipher: aes-128-gcm, password: f004bc5e-289a-4108-8d8b-38a5cc4c5c04, udp: true}
-  - {name: X0-ROB, server: hk.kfsldflk.xyz, port: 1200, type: ss, cipher: aes-256-gcm, password: da5e8403-0c26-4bde-866b-7136a8ee6907, udp: true}
-  - {name: 🇭🇰 香港四, server: 04.kjahbg.info, port: 30610, type: ss, cipher: aes-128-gcm, password: f004bc5e-289a-4108-8d8b-38a5cc4c5c04, udp: true}
-  - {name: 🇭🇰 HK 香港 132, server: as-c6.nexifyspark.com, port: 30506, type: ss, cipher: chacha20-ietf-poly1305, password: 40f1fc1c-d89e-4b3d-a4c6-a88588d7b1a6, udp: true}
-  - {name: 🇺🇸 美国原生02-1A, server: gzdx.newbee8.me, port: 35659, type: vmess, uuid: 8db2c99b-b772-4503-804b-f7142473d446, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇯🇵 日本03-隧道-1A, server: gzdx.newbee8.me, port: 35662, type: vmess, uuid: 8db2c99b-b772-4503-804b-f7142473d446, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇭🇰 香港 中转-1C, server: vip.baima360.com, port: 36214, type: ss, cipher: chacha20-ietf-poly1305, password: 1097bc48-c04a-433c-b85c-bb752628392a, udp: true}
-  - {name: 🇰🇷 韩国 中转, server: vip.baima360.com, port: 42344, type: ss, cipher: chacha20-ietf-poly1305, password: 1097bc48-c04a-433c-b85c-bb752628392a, udp: true}
-  - {name: 🇯🇵 日本01-1A, server: hn3x.newbee8.me, port: 22253, type: vmess, uuid: 8db2c99b-b772-4503-804b-f7142473d446, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇭🇰 HK 香港 088, server: as-c6.nexifyspark.com, port: 30505, type: ss, cipher: chacha20-ietf-poly1305, password: 40f1fc1c-d89e-4b3d-a4c6-a88588d7b1a6, udp: true}
-  - {name: 🇸🇬 SG 新加坡 053, server: sgwest.nexifyspark.com, port: 10353, type: ss, cipher: chacha20-ietf-poly1305, password: 40f1fc1c-d89e-4b3d-a4c6-a88588d7b1a6, udp: true}
-  - {name: 🇲🇾 MY 马来西亚 000, server: sgwest.nexifyspark.com, port: 20010, type: ss, cipher: chacha20-ietf-poly1305, password: 40f1fc1c-d89e-4b3d-a4c6-a88588d7b1a6, udp: true}
-  - {name: 🇯🇵 日本04, server: gy.666666222.shop, port: 20008, type: ss, cipher: chacha20-ietf-poly1305, password: da5e8403-0c26-4bde-866b-7136a8ee6907, udp: true}
-  - {name: 🇯🇵 JP 日本 101, server: jptokyo.nexifyspark.com, port: 30601, type: ss, cipher: chacha20-ietf-poly1305, password: 40f1fc1c-d89e-4b3d-a4c6-a88588d7b1a6, udp: true}
-  - {name: 🇯🇵 JP 日本 053, server: jptokyo.nexifyspark.com, port: 30603, type: ss, cipher: chacha20-ietf-poly1305, password: 40f1fc1c-d89e-4b3d-a4c6-a88588d7b1a6, udp: true}
-  - {name: 🇸🇬 SG 新加坡 005, server: sgwest.nexifyspark.com, port: 10351, type: ss, cipher: chacha20-ietf-poly1305, password: 40f1fc1c-d89e-4b3d-a4c6-a88588d7b1a6, udp: true}
-  - {name: 🇦🇺 澳大利亚01-1B, server: hn3x.newbee8.me, port: 22258, type: vmess, uuid: 534b0472-b9c4-43d9-9365-1c05427e83c3, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇨🇳 台湾一, server: 01.kjahbg.info, port: 30628, type: ss, cipher: aes-128-gcm, password: f004bc5e-289a-4108-8d8b-38a5cc4c5c04, udp: true}
-  - {name: 🇷🇺 RU 莫斯科 036, server: reg3.nexifyspark.com, port: 19003, type: ss, cipher: chacha20-ietf-poly1305, password: 40f1fc1c-d89e-4b3d-a4c6-a88588d7b1a6, udp: true}
-  - {name: 🇯🇵 JP 日本 059, server: jptokyo.nexifyspark.com, port: 30602, type: ss, cipher: chacha20-ietf-poly1305, password: 40f1fc1c-d89e-4b3d-a4c6-a88588d7b1a6, udp: true}
-  - {name: 🇺🇸 美国01-1B, server: hn3x.newbee8.me, port: 22255, type: vmess, uuid: 534b0472-b9c4-43d9-9365-1c05427e83c3, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇯🇵 JP 日本 005, server: ap-e1.nexifyspark.com, port: 30604, type: ss, cipher: chacha20-ietf-poly1305, password: 40f1fc1c-d89e-4b3d-a4c6-a88588d7b1a6, udp: true}
-  - {name: 🏳️‍🌈 注册即送1天试用流量 新手无忧 客服群解答, server: expa.nexifyspark.com, port: 18600, type: vmess, uuid: 40f1fc1c-d89e-4b3d-a4c6-a88588d7b1a6, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /Microsoft, headers: {Host: expa.nexifyspark.com}}, udp: true}
-  - {name: 🇭🇰 HK 香港 031, server: as-c6.nexifyspark.com, port: 30507, type: ss, cipher: chacha20-ietf-poly1305, password: 40f1fc1c-d89e-4b3d-a4c6-a88588d7b1a6, udp: true}
-  - {name: 🇦🇺 AU 悉尼 127, server: ozwest.nexifyspark.com, port: 20061, type: ss, cipher: chacha20-ietf-poly1305, password: 40f1fc1c-d89e-4b3d-a4c6-a88588d7b1a6, udp: true}
-  - {name: 🇸🇬 新加坡, server: pop.09d21837-9b89-4490-92bf-eabf449e3321.heima360.cc, port: 443, type: trojan, password: 1097bc48-c04a-433c-b85c-bb752628392a, udp: true}
+  - {name: 🇭🇰 中国-香港-F3-001, server: 212.192.13.68, port: 23023, type: vmess, uuid: aa7a4ba6-b48c-41a5-a3e0-768cca6636fd, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 🇯🇵 日本04, server: gy.666666222.shop, port: 20008, type: ss, cipher: chacha20-ietf-poly1305, password: 49eb2dbd-4a3a-4ef9-bc3a-c4aee556634e, udp: true}
+  - {name: 🇷🇺 俄罗斯-莫斯科-F3-001, server: 185.22.152.236, port: 23022, type: vmess, uuid: aa7a4ba6-b48c-41a5-a3e0-768cca6636fd, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 🇺🇸 美国-纽约-001, server: 207.90.238.136, port: 20022, type: vmess, uuid: aa7a4ba6-b48c-41a5-a3e0-768cca6636fd, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 🇨🇳 台湾01, server: gy.666666222.shop, port: 47564, type: ss, cipher: chacha20-ietf-poly1305, password: 49eb2dbd-4a3a-4ef9-bc3a-c4aee556634e, udp: true}
+  - {name: 🇯🇵 日本03, server: gy.666666222.shop, port: 20006, type: ss, cipher: chacha20-ietf-poly1305, password: 49eb2dbd-4a3a-4ef9-bc3a-c4aee556634e, udp: true}
+  - {name: 🇨🇳 台湾 1, server: gy.666666222.shop, port: 20032, type: ss, cipher: chacha20-ietf-poly1305, password: 49eb2dbd-4a3a-4ef9-bc3a-c4aee556634e, udp: true}
+  - {name: 🇯🇵 日本02, server: gy.666666222.shop, port: 20004, type: ss, cipher: chacha20-ietf-poly1305, password: 49eb2dbd-4a3a-4ef9-bc3a-c4aee556634e, udp: true}
+  - {name: 🇺🇸 美国 纽约2, server: gy.666666222.shop, port: 20016, type: ss, cipher: chacha20-ietf-poly1305, password: 49eb2dbd-4a3a-4ef9-bc3a-c4aee556634e, udp: true}
+  - {name: 🇭🇰 香港03, server: gy.666666222.shop, port: 20052, type: ss, cipher: chacha20-ietf-poly1305, password: 49eb2dbd-4a3a-4ef9-bc3a-c4aee556634e, udp: true}
+  - {name: 🇭🇰 中国-香港-F1-001, server: 212.192.13.110, port: 21023, type: vmess, uuid: aa7a4ba6-b48c-41a5-a3e0-768cca6636fd, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 🇷🇺 俄罗斯-莫斯科-F2-001, server: 46.17.43.122, port: 22023, type: vmess, uuid: aa7a4ba6-b48c-41a5-a3e0-768cca6636fd, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 🇷🇺 俄罗斯-莫斯科-F1-001, server: 176.32.35.148, port: 21021, type: vmess, uuid: aa7a4ba6-b48c-41a5-a3e0-768cca6636fd, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 🇭🇰 香港01, server: gy.666666222.shop, port: 34338, type: ss, cipher: chacha20-ietf-poly1305, password: 49eb2dbd-4a3a-4ef9-bc3a-c4aee556634e, udp: true}
+  - {name: 🇺🇸 美国-拉斯维加斯-001, server: biazh.mmzhk.website, port: 443, type: vmess, uuid: aa7a4ba6-b48c-41a5-a3e0-768cca6636fd, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: biazh.mmzhk.website}}, udp: true}
+  - {name: 🇺🇸 美国-纽约-F3-001, server: 207.90.237.96, port: 23010, type: vmess, uuid: aa7a4ba6-b48c-41a5-a3e0-768cca6636fd, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 🇯🇵 日本01, server: gy.666666222.shop, port: 20002, type: ss, cipher: chacha20-ietf-poly1305, password: 49eb2dbd-4a3a-4ef9-bc3a-c4aee556634e, udp: true}
+  - {name: 🇺🇸 美国 纽约01, server: gy.666666222.shop, port: 20013, type: ss, cipher: chacha20-ietf-poly1305, password: 49eb2dbd-4a3a-4ef9-bc3a-c4aee556634e, udp: true}
+  - {name: 🇨🇦 加拿大-多伦多-001, server: 141.195.112.53, port: 20023, type: vmess, uuid: aa7a4ba6-b48c-41a5-a3e0-768cca6636fd, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: XP-VGH, server: hk.kfsldflk.xyz, port: 1200, type: ss, cipher: aes-256-gcm, password: 49eb2dbd-4a3a-4ef9-bc3a-c4aee556634e, udp: true}
+  - {name: 🇺🇸 美国-纽约-F1-001, server: 207.90.236.21, port: 21010, type: vmess, uuid: aa7a4ba6-b48c-41a5-a3e0-768cca6636fd, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 🇭🇰 中国-香港-F2-001, server: 212.192.13.198, port: 22023, type: vmess, uuid: aa7a4ba6-b48c-41a5-a3e0-768cca6636fd, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 🇺🇸 美国-纽约-F2-001, server: 207.90.237.179, port: 22002, type: vmess, uuid: aa7a4ba6-b48c-41a5-a3e0-768cca6636fd, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 🇷🇺 俄罗斯-圣彼得堡-001, server: 195.58.49.42, port: 20023, type: vmess, uuid: aa7a4ba6-b48c-41a5-a3e0-768cca6636fd, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 🇭🇰 香港02, server: gy.666666222.shop, port: 20035, type: ss, cipher: chacha20-ietf-poly1305, password: 49eb2dbd-4a3a-4ef9-bc3a-c4aee556634e, udp: true}
 proxy-groups:
   - name: 手动切换
     type: select
     proxies:
-      - 🇸🇬 新加坡03-隧道-1A
-      - 🇨🇳 TW 台湾 102
-      - 🇭🇰 香港八
-      - 🇺🇸 美国六
-      - 🇯🇵 日本01-1C
-      - 🇯🇵 日本02
-      - 🇸🇬 新加坡四
-      - 🇺🇸 US 美国 105
-      - 🇦🇺 澳大利亚02-1B
-      - 🇭🇰 香港01
-      - 🇺🇸 美国-1B
-      - 🇮🇳 印度03-隧道-1B
-      - 🇸🇬 SG 新加坡 003
-      - 🇻🇳 VN 越南 000
-      - 🇺🇸 美国一
-      - 🇸🇬 新加坡03-隧道-1B
-      - 🇺🇸 美国原生02-1B
-      - 🇭🇰 HK 香港 091
-      - 🇭🇰 香港 中转-1A
-      - 🇮🇳 印度03-隧道-1A
-      - 🇭🇰 广港专线-美国04-1B
-      - 🇺🇸 美国01-1A
-      - 🇭🇰 香港五
-      - 🇨🇳 台湾01
-      - 🇯🇵 日本03-隧道-1B
-      - 🇦🇺 澳大利亚02-1A
-      - 🇸🇬 新加坡五
-      - 🇷🇺 俄罗斯 中转
-      - 🇯🇵 日本01-1B
-      - 🇭🇰 HK 香港 030
-      - 🇰🇷 韩国一
-      - 🇭🇰 香港05-隧道-1B
-      - 🇺🇸 美国-1A
-      - 🇺🇸 US 美国 103
-      - 🇺🇸 美国原生01-1B
-      - 🇭🇰 广港专线-美国04-1A
-      - 🇨🇳 台湾 1
-      - 🇺🇸 US 美国 106
-      - 🇯🇵 JP 日本 006
-      - 🇺🇸 美国原生01-1A
-      - 🇨🇦 CA 加拿大 005
-      - 节点购买地址
-      - 🇩🇪 DE 德国 112
-      - 🇭🇰 香港六
-      - 🇺🇸 美国三
-      - 🇭🇰 香港02
-      - 🇭🇰 香港05-隧道-1A
-      - 🇯🇵 日本03
-      - 🇨🇳 TW 台湾 101
-      - 🇮🇳 印度01-1A
-      - 🇮🇳 IN 印度 201
-      - 🇭🇰 香港03
-      - 🇰🇷 KR 韩国 053
-      - 🇮🇹 IT 意大利 185
-      - 🇭🇰 HK 香港 089
-      - YN-CDV
-      - 🇺🇸 美国 纽约01
-      - 🇯🇵 日本
-      - 🇯🇵 日本三
-      - 🇸🇬 新加坡01-1B
-      - 🇧🇷 BR 巴西 130
-      - 🇯🇵 日本五
-      - 🇺🇸 美国 中转-1B
-      - 🇲🇾 马来西亚-1A
-      - 🇫🇷 FR 法国 020
-      - 🇭🇰 香港 中转-1B
-      - 🇮🇳 印度01-1B
-      - 🇺🇸 US 美国 101
-      - 🇹🇭 TH 泰国 000
-      - 🇩🇪 德国 中转
-      - 🇺🇸 美国 中转-1A
-      - 🇧🇷 巴西 中转
-      - 🇭🇰 香港
-      - 🇺🇸 US 美国 102
-      - 🇳🇱 NL 荷兰 001
-      - 🇺🇸 US 美国 139
-      - 🇭🇰 香港三
-      - 🇬🇧 GB 英国 165
-      - 🇯🇵 日本六
-      - 🇬🇧 GB 英国 160
-      - 🇯🇵 JP 日本 010
-      - 🇯🇵 日本四
-      - 🇹🇷 TR 土耳其 011
-      - 🇭🇰 HK 香港 045
-      - 🇰🇷 KR 韩国 200
-      - 🇸🇬 SG 新加坡 052
-      - 🇺🇸 美国五
-      - 🇭🇰 HK 香港 067
-      - 🇸🇬 SG 新加坡 002
-      - 🇦🇺 澳大利亚01-1A
-      - 🇨🇳 TW 台湾 050
-      - 🇩🇪 DE 德国 113
-      - 🇯🇵 日本二
-      - 🇨🇳 台湾 中转
-      - 🇦🇪 AE 迪拜 112
-      - 🇸🇬 SG 新加坡 051
-      - 🇺🇸 美国四
-      - 🇸🇬 新加坡二
-      - 🇸🇬 新加坡01-1A
-      - 🇲🇾 马来西亚-1B
-      - 🇸🇬 新加坡六
-      - 🇰🇷 韩国二
-      - 🇭🇰 香港一
-      - 🇺🇦 UA 乌克兰 002
-      - 🇺🇸 美国 纽约2
-      - 🇭🇰 香港二
-      - 🇨🇳 台湾二
-      - 🇭🇰 香港七
-      - 🇸🇬 新加坡一
-      - 🇨🇦 加拿大 中转
-      - 🇫🇷 法国 中转
-      - 🇺🇸 美国二
-      - 🇸🇬 新加坡三
-      - X0-ROB
-      - 🇭🇰 香港四
-      - 🇭🇰 HK 香港 132
-      - 🇺🇸 美国原生02-1A
-      - 🇯🇵 日本03-隧道-1A
-      - 🇭🇰 香港 中转-1C
-      - 🇰🇷 韩国 中转
-      - 🇯🇵 日本01-1A
-      - 🇭🇰 HK 香港 088
-      - 🇸🇬 SG 新加坡 053
-      - 🇲🇾 MY 马来西亚 000
+      - 🇭🇰 中国-香港-F3-001
       - 🇯🇵 日本04
-      - 🇯🇵 JP 日本 101
-      - 🇯🇵 JP 日本 053
-      - 🇸🇬 SG 新加坡 005
-      - 🇦🇺 澳大利亚01-1B
-      - 🇨🇳 台湾一
-      - 🇷🇺 RU 莫斯科 036
-      - 🇯🇵 JP 日本 059
-      - 🇺🇸 美国01-1B
-      - 🇯🇵 JP 日本 005
-      - 🏳️‍🌈 注册即送1天试用流量 新手无忧 客服群解答
-      - 🇭🇰 HK 香港 031
-      - 🇦🇺 AU 悉尼 127
-      - 🇸🇬 新加坡
+      - 🇷🇺 俄罗斯-莫斯科-F3-001
+      - 🇺🇸 美国-纽约-001
+      - 🇨🇳 台湾01
+      - 🇯🇵 日本03
+      - 🇨🇳 台湾 1
+      - 🇯🇵 日本02
+      - 🇺🇸 美国 纽约2
+      - 🇭🇰 香港03
+      - 🇭🇰 中国-香港-F1-001
+      - 🇷🇺 俄罗斯-莫斯科-F2-001
+      - 🇷🇺 俄罗斯-莫斯科-F1-001
+      - 🇭🇰 香港01
+      - 🇺🇸 美国-拉斯维加斯-001
+      - 🇺🇸 美国-纽约-F3-001
+      - 🇯🇵 日本01
+      - 🇺🇸 美国 纽约01
+      - 🇨🇦 加拿大-多伦多-001
+      - XP-VGH
+      - 🇺🇸 美国-纽约-F1-001
+      - 🇭🇰 中国-香港-F2-001
+      - 🇺🇸 美国-纽约-F2-001
+      - 🇷🇺 俄罗斯-圣彼得堡-001
+      - 🇭🇰 香港02
   - name: 自动选择
     type: url-test
     url: https://www.google.com/favicon.ico
     interval: 300
     tolerance: 50
     proxies:
-      - 🇸🇬 新加坡03-隧道-1A
-      - 🇨🇳 TW 台湾 102
-      - 🇭🇰 香港八
-      - 🇺🇸 美国六
-      - 🇯🇵 日本01-1C
-      - 🇯🇵 日本02
-      - 🇸🇬 新加坡四
-      - 🇺🇸 US 美国 105
-      - 🇦🇺 澳大利亚02-1B
-      - 🇭🇰 香港01
-      - 🇺🇸 美国-1B
-      - 🇮🇳 印度03-隧道-1B
-      - 🇸🇬 SG 新加坡 003
-      - 🇻🇳 VN 越南 000
-      - 🇺🇸 美国一
-      - 🇸🇬 新加坡03-隧道-1B
-      - 🇺🇸 美国原生02-1B
-      - 🇭🇰 HK 香港 091
-      - 🇭🇰 香港 中转-1A
-      - 🇮🇳 印度03-隧道-1A
-      - 🇭🇰 广港专线-美国04-1B
-      - 🇺🇸 美国01-1A
-      - 🇭🇰 香港五
-      - 🇨🇳 台湾01
-      - 🇯🇵 日本03-隧道-1B
-      - 🇦🇺 澳大利亚02-1A
-      - 🇸🇬 新加坡五
-      - 🇷🇺 俄罗斯 中转
-      - 🇯🇵 日本01-1B
-      - 🇭🇰 HK 香港 030
-      - 🇰🇷 韩国一
-      - 🇭🇰 香港05-隧道-1B
-      - 🇺🇸 美国-1A
-      - 🇺🇸 US 美国 103
-      - 🇺🇸 美国原生01-1B
-      - 🇭🇰 广港专线-美国04-1A
-      - 🇨🇳 台湾 1
-      - 🇺🇸 US 美国 106
-      - 🇯🇵 JP 日本 006
-      - 🇺🇸 美国原生01-1A
-      - 🇨🇦 CA 加拿大 005
-      - 节点购买地址
-      - 🇩🇪 DE 德国 112
-      - 🇭🇰 香港六
-      - 🇺🇸 美国三
-      - 🇭🇰 香港02
-      - 🇭🇰 香港05-隧道-1A
-      - 🇯🇵 日本03
-      - 🇨🇳 TW 台湾 101
-      - 🇮🇳 印度01-1A
-      - 🇮🇳 IN 印度 201
-      - 🇭🇰 香港03
-      - 🇰🇷 KR 韩国 053
-      - 🇮🇹 IT 意大利 185
-      - 🇭🇰 HK 香港 089
-      - YN-CDV
-      - 🇺🇸 美国 纽约01
-      - 🇯🇵 日本
-      - 🇯🇵 日本三
-      - 🇸🇬 新加坡01-1B
-      - 🇧🇷 BR 巴西 130
-      - 🇯🇵 日本五
-      - 🇺🇸 美国 中转-1B
-      - 🇲🇾 马来西亚-1A
-      - 🇫🇷 FR 法国 020
-      - 🇭🇰 香港 中转-1B
-      - 🇮🇳 印度01-1B
-      - 🇺🇸 US 美国 101
-      - 🇹🇭 TH 泰国 000
-      - 🇩🇪 德国 中转
-      - 🇺🇸 美国 中转-1A
-      - 🇧🇷 巴西 中转
-      - 🇭🇰 香港
-      - 🇺🇸 US 美国 102
-      - 🇳🇱 NL 荷兰 001
-      - 🇺🇸 US 美国 139
-      - 🇭🇰 香港三
-      - 🇬🇧 GB 英国 165
-      - 🇯🇵 日本六
-      - 🇬🇧 GB 英国 160
-      - 🇯🇵 JP 日本 010
-      - 🇯🇵 日本四
-      - 🇹🇷 TR 土耳其 011
-      - 🇭🇰 HK 香港 045
-      - 🇰🇷 KR 韩国 200
-      - 🇸🇬 SG 新加坡 052
-      - 🇺🇸 美国五
-      - 🇭🇰 HK 香港 067
-      - 🇸🇬 SG 新加坡 002
-      - 🇦🇺 澳大利亚01-1A
-      - 🇨🇳 TW 台湾 050
-      - 🇩🇪 DE 德国 113
-      - 🇯🇵 日本二
-      - 🇨🇳 台湾 中转
-      - 🇦🇪 AE 迪拜 112
-      - 🇸🇬 SG 新加坡 051
-      - 🇺🇸 美国四
-      - 🇸🇬 新加坡二
-      - 🇸🇬 新加坡01-1A
-      - 🇲🇾 马来西亚-1B
-      - 🇸🇬 新加坡六
-      - 🇰🇷 韩国二
-      - 🇭🇰 香港一
-      - 🇺🇦 UA 乌克兰 002
-      - 🇺🇸 美国 纽约2
-      - 🇭🇰 香港二
-      - 🇨🇳 台湾二
-      - 🇭🇰 香港七
-      - 🇸🇬 新加坡一
-      - 🇨🇦 加拿大 中转
-      - 🇫🇷 法国 中转
-      - 🇺🇸 美国二
-      - 🇸🇬 新加坡三
-      - X0-ROB
-      - 🇭🇰 香港四
-      - 🇭🇰 HK 香港 132
-      - 🇺🇸 美国原生02-1A
-      - 🇯🇵 日本03-隧道-1A
-      - 🇭🇰 香港 中转-1C
-      - 🇰🇷 韩国 中转
-      - 🇯🇵 日本01-1A
-      - 🇭🇰 HK 香港 088
-      - 🇸🇬 SG 新加坡 053
-      - 🇲🇾 MY 马来西亚 000
+      - 🇭🇰 中国-香港-F3-001
       - 🇯🇵 日本04
-      - 🇯🇵 JP 日本 101
-      - 🇯🇵 JP 日本 053
-      - 🇸🇬 SG 新加坡 005
-      - 🇦🇺 澳大利亚01-1B
-      - 🇨🇳 台湾一
-      - 🇷🇺 RU 莫斯科 036
-      - 🇯🇵 JP 日本 059
-      - 🇺🇸 美国01-1B
-      - 🇯🇵 JP 日本 005
-      - 🏳️‍🌈 注册即送1天试用流量 新手无忧 客服群解答
-      - 🇭🇰 HK 香港 031
-      - 🇦🇺 AU 悉尼 127
-      - 🇸🇬 新加坡
+      - 🇷🇺 俄罗斯-莫斯科-F3-001
+      - 🇺🇸 美国-纽约-001
+      - 🇨🇳 台湾01
+      - 🇯🇵 日本03
+      - 🇨🇳 台湾 1
+      - 🇯🇵 日本02
+      - 🇺🇸 美国 纽约2
+      - 🇭🇰 香港03
+      - 🇭🇰 中国-香港-F1-001
+      - 🇷🇺 俄罗斯-莫斯科-F2-001
+      - 🇷🇺 俄罗斯-莫斯科-F1-001
+      - 🇭🇰 香港01
+      - 🇺🇸 美国-拉斯维加斯-001
+      - 🇺🇸 美国-纽约-F3-001
+      - 🇯🇵 日本01
+      - 🇺🇸 美国 纽约01
+      - 🇨🇦 加拿大-多伦多-001
+      - XP-VGH
+      - 🇺🇸 美国-纽约-F1-001
+      - 🇭🇰 中国-香港-F2-001
+      - 🇺🇸 美国-纽约-F2-001
+      - 🇷🇺 俄罗斯-圣彼得堡-001
+      - 🇭🇰 香港02
   - name: 负载均衡
     type: load-balance
     strategy: consistent-hashing
@@ -436,392 +97,90 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - 🇸🇬 新加坡03-隧道-1A
-      - 🇨🇳 TW 台湾 102
-      - 🇭🇰 香港八
-      - 🇺🇸 美国六
-      - 🇯🇵 日本01-1C
-      - 🇯🇵 日本02
-      - 🇸🇬 新加坡四
-      - 🇺🇸 US 美国 105
-      - 🇦🇺 澳大利亚02-1B
-      - 🇭🇰 香港01
-      - 🇺🇸 美国-1B
-      - 🇮🇳 印度03-隧道-1B
-      - 🇸🇬 SG 新加坡 003
-      - 🇻🇳 VN 越南 000
-      - 🇺🇸 美国一
-      - 🇸🇬 新加坡03-隧道-1B
-      - 🇺🇸 美国原生02-1B
-      - 🇭🇰 HK 香港 091
-      - 🇭🇰 香港 中转-1A
-      - 🇮🇳 印度03-隧道-1A
-      - 🇭🇰 广港专线-美国04-1B
-      - 🇺🇸 美国01-1A
-      - 🇭🇰 香港五
-      - 🇨🇳 台湾01
-      - 🇯🇵 日本03-隧道-1B
-      - 🇦🇺 澳大利亚02-1A
-      - 🇸🇬 新加坡五
-      - 🇷🇺 俄罗斯 中转
-      - 🇯🇵 日本01-1B
-      - 🇭🇰 HK 香港 030
-      - 🇰🇷 韩国一
-      - 🇭🇰 香港05-隧道-1B
-      - 🇺🇸 美国-1A
-      - 🇺🇸 US 美国 103
-      - 🇺🇸 美国原生01-1B
-      - 🇭🇰 广港专线-美国04-1A
-      - 🇨🇳 台湾 1
-      - 🇺🇸 US 美国 106
-      - 🇯🇵 JP 日本 006
-      - 🇺🇸 美国原生01-1A
-      - 🇨🇦 CA 加拿大 005
-      - 节点购买地址
-      - 🇩🇪 DE 德国 112
-      - 🇭🇰 香港六
-      - 🇺🇸 美国三
-      - 🇭🇰 香港02
-      - 🇭🇰 香港05-隧道-1A
-      - 🇯🇵 日本03
-      - 🇨🇳 TW 台湾 101
-      - 🇮🇳 印度01-1A
-      - 🇮🇳 IN 印度 201
-      - 🇭🇰 香港03
-      - 🇰🇷 KR 韩国 053
-      - 🇮🇹 IT 意大利 185
-      - 🇭🇰 HK 香港 089
-      - YN-CDV
-      - 🇺🇸 美国 纽约01
-      - 🇯🇵 日本
-      - 🇯🇵 日本三
-      - 🇸🇬 新加坡01-1B
-      - 🇧🇷 BR 巴西 130
-      - 🇯🇵 日本五
-      - 🇺🇸 美国 中转-1B
-      - 🇲🇾 马来西亚-1A
-      - 🇫🇷 FR 法国 020
-      - 🇭🇰 香港 中转-1B
-      - 🇮🇳 印度01-1B
-      - 🇺🇸 US 美国 101
-      - 🇹🇭 TH 泰国 000
-      - 🇩🇪 德国 中转
-      - 🇺🇸 美国 中转-1A
-      - 🇧🇷 巴西 中转
-      - 🇭🇰 香港
-      - 🇺🇸 US 美国 102
-      - 🇳🇱 NL 荷兰 001
-      - 🇺🇸 US 美国 139
-      - 🇭🇰 香港三
-      - 🇬🇧 GB 英国 165
-      - 🇯🇵 日本六
-      - 🇬🇧 GB 英国 160
-      - 🇯🇵 JP 日本 010
-      - 🇯🇵 日本四
-      - 🇹🇷 TR 土耳其 011
-      - 🇭🇰 HK 香港 045
-      - 🇰🇷 KR 韩国 200
-      - 🇸🇬 SG 新加坡 052
-      - 🇺🇸 美国五
-      - 🇭🇰 HK 香港 067
-      - 🇸🇬 SG 新加坡 002
-      - 🇦🇺 澳大利亚01-1A
-      - 🇨🇳 TW 台湾 050
-      - 🇩🇪 DE 德国 113
-      - 🇯🇵 日本二
-      - 🇨🇳 台湾 中转
-      - 🇦🇪 AE 迪拜 112
-      - 🇸🇬 SG 新加坡 051
-      - 🇺🇸 美国四
-      - 🇸🇬 新加坡二
-      - 🇸🇬 新加坡01-1A
-      - 🇲🇾 马来西亚-1B
-      - 🇸🇬 新加坡六
-      - 🇰🇷 韩国二
-      - 🇭🇰 香港一
-      - 🇺🇦 UA 乌克兰 002
-      - 🇺🇸 美国 纽约2
-      - 🇭🇰 香港二
-      - 🇨🇳 台湾二
-      - 🇭🇰 香港七
-      - 🇸🇬 新加坡一
-      - 🇨🇦 加拿大 中转
-      - 🇫🇷 法国 中转
-      - 🇺🇸 美国二
-      - 🇸🇬 新加坡三
-      - X0-ROB
-      - 🇭🇰 香港四
-      - 🇭🇰 HK 香港 132
-      - 🇺🇸 美国原生02-1A
-      - 🇯🇵 日本03-隧道-1A
-      - 🇭🇰 香港 中转-1C
-      - 🇰🇷 韩国 中转
-      - 🇯🇵 日本01-1A
-      - 🇭🇰 HK 香港 088
-      - 🇸🇬 SG 新加坡 053
-      - 🇲🇾 MY 马来西亚 000
+      - 🇭🇰 中国-香港-F3-001
       - 🇯🇵 日本04
-      - 🇯🇵 JP 日本 101
-      - 🇯🇵 JP 日本 053
-      - 🇸🇬 SG 新加坡 005
-      - 🇦🇺 澳大利亚01-1B
-      - 🇨🇳 台湾一
-      - 🇷🇺 RU 莫斯科 036
-      - 🇯🇵 JP 日本 059
-      - 🇺🇸 美国01-1B
-      - 🇯🇵 JP 日本 005
-      - 🏳️‍🌈 注册即送1天试用流量 新手无忧 客服群解答
-      - 🇭🇰 HK 香港 031
-      - 🇦🇺 AU 悉尼 127
-      - 🇸🇬 新加坡
+      - 🇷🇺 俄罗斯-莫斯科-F3-001
+      - 🇺🇸 美国-纽约-001
+      - 🇨🇳 台湾01
+      - 🇯🇵 日本03
+      - 🇨🇳 台湾 1
+      - 🇯🇵 日本02
+      - 🇺🇸 美国 纽约2
+      - 🇭🇰 香港03
+      - 🇭🇰 中国-香港-F1-001
+      - 🇷🇺 俄罗斯-莫斯科-F2-001
+      - 🇷🇺 俄罗斯-莫斯科-F1-001
+      - 🇭🇰 香港01
+      - 🇺🇸 美国-拉斯维加斯-001
+      - 🇺🇸 美国-纽约-F3-001
+      - 🇯🇵 日本01
+      - 🇺🇸 美国 纽约01
+      - 🇨🇦 加拿大-多伦多-001
+      - XP-VGH
+      - 🇺🇸 美国-纽约-F1-001
+      - 🇭🇰 中国-香港-F2-001
+      - 🇺🇸 美国-纽约-F2-001
+      - 🇷🇺 俄罗斯-圣彼得堡-001
+      - 🇭🇰 香港02
   - name: 中国节点
     type: select
     proxies:
-      - 🇨🇳 TW 台湾 102
-      - 🇭🇰 香港八
-      - 🇭🇰 香港01
-      - 🇭🇰 HK 香港 091
-      - 🇭🇰 香港 中转-1A
-      - 🇭🇰 香港五
+      - 🇭🇰 中国-香港-F3-001
       - 🇨🇳 台湾01
-      - 🇭🇰 HK 香港 030
-      - 🇭🇰 香港05-隧道-1B
       - 🇨🇳 台湾 1
-      - 🇭🇰 香港六
-      - 🇭🇰 香港02
-      - 🇭🇰 香港05-隧道-1A
-      - 🇨🇳 TW 台湾 101
       - 🇭🇰 香港03
-      - 🇭🇰 HK 香港 089
-      - 🇭🇰 香港 中转-1B
-      - 🇭🇰 香港
-      - 🇭🇰 香港三
-      - 🇭🇰 HK 香港 045
-      - 🇭🇰 HK 香港 067
-      - 🇨🇳 TW 台湾 050
-      - 🇨🇳 台湾 中转
-      - 🇭🇰 香港一
-      - 🇭🇰 香港二
-      - 🇨🇳 台湾二
-      - 🇭🇰 香港七
-      - 🇭🇰 香港四
-      - 🇭🇰 HK 香港 132
-      - 🇭🇰 香港 中转-1C
-      - 🇭🇰 HK 香港 088
-      - 🇨🇳 台湾一
-      - 🇭🇰 HK 香港 031
+      - 🇭🇰 中国-香港-F1-001
+      - 🇭🇰 香港01
+      - 🇭🇰 中国-香港-F2-001
+      - 🇭🇰 香港02
   - name: 日本节点
     type: select
     proxies:
-      - 🇯🇵 日本01-1C
-      - 🇯🇵 日本02
-      - 🇯🇵 日本03-隧道-1B
-      - 🇯🇵 日本01-1B
-      - 🇯🇵 JP 日本 006
-      - 🇯🇵 日本03
-      - 🇯🇵 日本
-      - 🇯🇵 日本三
-      - 🇯🇵 日本五
-      - 🇯🇵 日本六
-      - 🇯🇵 JP 日本 010
-      - 🇯🇵 日本四
-      - 🇯🇵 日本二
-      - 🇯🇵 日本03-隧道-1A
-      - 🇯🇵 日本01-1A
       - 🇯🇵 日本04
-      - 🇯🇵 JP 日本 101
-      - 🇯🇵 JP 日本 053
-      - 🇯🇵 JP 日本 059
-      - 🇯🇵 JP 日本 005
+      - 🇯🇵 日本03
+      - 🇯🇵 日本02
+      - 🇯🇵 日本01
   - name: 新加坡节点
     type: select
     proxies:
-      - 🇸🇬 新加坡03-隧道-1A
-      - 🇸🇬 新加坡四
-      - 🇸🇬 SG 新加坡 003
-      - 🇸🇬 新加坡03-隧道-1B
-      - 🇸🇬 新加坡五
-      - 🇸🇬 新加坡01-1B
-      - 🇸🇬 SG 新加坡 052
-      - 🇸🇬 SG 新加坡 002
-      - 🇸🇬 SG 新加坡 051
-      - 🇸🇬 新加坡二
-      - 🇸🇬 新加坡01-1A
-      - 🇸🇬 新加坡六
-      - 🇸🇬 新加坡一
-      - 🇸🇬 新加坡三
-      - 🇸🇬 SG 新加坡 053
-      - 🇸🇬 SG 新加坡 005
-      - 🇸🇬 新加坡
+      - DIRECT
   - name: 美国节点
     type: url-test
     url: https://www.google.com/favicon.ico
     interval: 300
     tolerance: 150
     proxies:
-      - 🇺🇸 美国六
-      - 🇺🇸 US 美国 105
-      - 🇺🇸 美国-1B
-      - 🇺🇸 美国一
-      - 🇺🇸 美国原生02-1B
-      - 🇭🇰 广港专线-美国04-1B
-      - 🇺🇸 美国01-1A
-      - 🇺🇸 美国-1A
-      - 🇺🇸 US 美国 103
-      - 🇺🇸 美国原生01-1B
-      - 🇭🇰 广港专线-美国04-1A
-      - 🇺🇸 US 美国 106
-      - 🇺🇸 美国原生01-1A
-      - 🇺🇸 美国三
-      - 🇺🇸 美国 纽约01
-      - 🇺🇸 美国 中转-1B
-      - 🇺🇸 US 美国 101
-      - 🇺🇸 美国 中转-1A
-      - 🇺🇸 US 美国 102
-      - 🇺🇸 US 美国 139
-      - 🇺🇸 美国五
-      - 🇺🇸 美国四
+      - 🇺🇸 美国-纽约-001
       - 🇺🇸 美国 纽约2
-      - 🇺🇸 美国二
-      - 🇺🇸 美国原生02-1A
-      - 🇺🇸 美国01-1B
+      - 🇺🇸 美国-拉斯维加斯-001
+      - 🇺🇸 美国-纽约-F3-001
+      - 🇺🇸 美国 纽约01
+      - 🇺🇸 美国-纽约-F1-001
+      - 🇺🇸 美国-纽约-F2-001
 rules:
-  - DOMAIN,gzdx.newbee8.me,DIRECT
-  - DOMAIN,ap-e3.nexifyspark.com,DIRECT
-  - DOMAIN,08.kjahbg.info,DIRECT
-  - DOMAIN,006.kjahbg.info,DIRECT
+  - IP-CIDR,212.192.13.68/32,DIRECT,no-resolve
+  - DOMAIN,gy.666666222.shop,DIRECT
+  - IP-CIDR,185.22.152.236/32,DIRECT,no-resolve
+  - IP-CIDR,207.90.238.136/32,DIRECT,no-resolve
   - DOMAIN,gy.666666222.shop,DIRECT
   - DOMAIN,gy.666666222.shop,DIRECT
-  - DOMAIN,04.kjahbg.info,DIRECT
-  - DOMAIN,useast.nexifyspark.com,DIRECT
-  - DOMAIN,gzdx.newbee8.me,DIRECT
   - DOMAIN,gy.666666222.shop,DIRECT
-  - IP-CIDR,45.83.140.22/32,DIRECT,no-resolve
-  - DOMAIN,gzdx.newbee8.me,DIRECT
-  - DOMAIN,singad.nexifyspark.com,DIRECT
-  - DOMAIN,singad.nexifyspark.com,DIRECT
-  - DOMAIN,001.kjahbg.info,DIRECT
-  - DOMAIN,gzdx.newbee8.me,DIRECT
-  - DOMAIN,gzdx.newbee8.me,DIRECT
-  - DOMAIN,as-c6.nexifyspark.com,DIRECT
-  - DOMAIN,vip.baima360.com,DIRECT
-  - DOMAIN,gzdx.newbee8.me,DIRECT
-  - DOMAIN,gzdx.newbee8.me,DIRECT
-  - DOMAIN,hn3x.newbee8.me,DIRECT
-  - DOMAIN,05.kjahbg.info,DIRECT
   - DOMAIN,gy.666666222.shop,DIRECT
-  - DOMAIN,gzdx.newbee8.me,DIRECT
-  - DOMAIN,gzdx.newbee8.me,DIRECT
-  - DOMAIN,05.kjahbg.info,DIRECT
-  - DOMAIN,vip.baima360.com,DIRECT
-  - DOMAIN,hn3x.newbee8.me,DIRECT
-  - DOMAIN,as-c6.nexifyspark.com,DIRECT
-  - DOMAIN,001.kjahbg.info,DIRECT
-  - DOMAIN,gzdx.newbee8.me,DIRECT
-  - DOMAIN,pop.ede9314c-61e5-4c9a-8e41-275a29f5120e.heima360.cc,DIRECT
-  - DOMAIN,uswest.nexifyspark.com,DIRECT
-  - DOMAIN,hn3x.newbee8.me,DIRECT
-  - DOMAIN,gzdx.newbee8.me,DIRECT
   - DOMAIN,gy.666666222.shop,DIRECT
-  - DOMAIN,useast.nexifyspark.com,DIRECT
-  - DOMAIN,ap-e1.nexifyspark.com,DIRECT
-  - DOMAIN,hn3x.newbee8.me,DIRECT
-  - DOMAIN,useast.nexifyspark.com,DIRECT
-  - DOMAIN,expa.nexifyspark.com,DIRECT
-  - DOMAIN,reg2.nexifyspark.com,DIRECT
-  - DOMAIN,06.kjahbg.info,DIRECT
-  - DOMAIN,003.kjahbg.info,DIRECT
   - DOMAIN,gy.666666222.shop,DIRECT
-  - DOMAIN,gzdx.newbee8.me,DIRECT
+  - IP-CIDR,212.192.13.110/32,DIRECT,no-resolve
+  - IP-CIDR,46.17.43.122/32,DIRECT,no-resolve
+  - IP-CIDR,176.32.35.148/32,DIRECT,no-resolve
   - DOMAIN,gy.666666222.shop,DIRECT
-  - DOMAIN,ap-e3.nexifyspark.com,DIRECT
-  - DOMAIN,hn3x.newbee8.me,DIRECT
-  - DOMAIN,reg1.nexifyspark.com,DIRECT
+  - DOMAIN,biazh.mmzhk.website,DIRECT
+  - IP-CIDR,207.90.237.96/32,DIRECT,no-resolve
   - DOMAIN,gy.666666222.shop,DIRECT
-  - DOMAIN,ap-e2.nexifyspark.com,DIRECT
-  - DOMAIN,reg2.nexifyspark.com,DIRECT
-  - DOMAIN,as-c6.nexifyspark.com,DIRECT
-  - DOMAIN,001.kjahbg.info,DIRECT
   - DOMAIN,gy.666666222.shop,DIRECT
-  - DOMAIN,vip.baima360.com,DIRECT
-  - DOMAIN,003.kjahbg.info,DIRECT
-  - DOMAIN,hn3x.newbee8.me,DIRECT
-  - DOMAIN,reg3.nexifyspark.com,DIRECT
-  - DOMAIN,005.kjahbg.info,DIRECT
-  - DOMAIN,vip.baima360.com,DIRECT
-  - IP-CIDR,103.75.189.152/32,DIRECT,no-resolve
-  - DOMAIN,reg2.nexifyspark.com,DIRECT
-  - DOMAIN,vip.baima360.com,DIRECT
-  - DOMAIN,hn3x.newbee8.me,DIRECT
-  - DOMAIN,uswest.nexifyspark.com,DIRECT
-  - DOMAIN,sgwest.nexifyspark.com,DIRECT
-  - DOMAIN,vip.baima360.com,DIRECT
-  - DOMAIN,vip.baima360.com,DIRECT
-  - DOMAIN,vip.baima360.com,DIRECT
-  - DOMAIN,pop.05e2a910-30aa-49b7-8a4c-c548745c3a2d.heima360.cc,DIRECT
-  - DOMAIN,uswest.nexifyspark.com,DIRECT
-  - DOMAIN,ozwest.nexifyspark.com,DIRECT
-  - DOMAIN,useast.nexifyspark.com,DIRECT
-  - DOMAIN,03.kjahbg.info,DIRECT
-  - DOMAIN,eulondon.nexifyspark.com,DIRECT
-  - DOMAIN,006.kjahbg.info,DIRECT
-  - DOMAIN,eulondon.nexifyspark.com,DIRECT
-  - DOMAIN,ap-e1.nexifyspark.com,DIRECT
-  - DOMAIN,004.kjahbg.info,DIRECT
-  - DOMAIN,reg3.nexifyspark.com,DIRECT
-  - DOMAIN,as-c6.nexifyspark.com,DIRECT
-  - DOMAIN,ap-e2.nexifyspark.com,DIRECT
-  - DOMAIN,sgwest.nexifyspark.com,DIRECT
-  - DOMAIN,005.kjahbg.info,DIRECT
-  - DOMAIN,as-c6.nexifyspark.com,DIRECT
-  - DOMAIN,singad.nexifyspark.com,DIRECT
-  - DOMAIN,hn3x.newbee8.me,DIRECT
-  - DOMAIN,ap-e3.nexifyspark.com,DIRECT
-  - DOMAIN,reg2.nexifyspark.com,DIRECT
-  - DOMAIN,002.kjahbg.info,DIRECT
-  - DOMAIN,vip.baima360.com,DIRECT
-  - DOMAIN,mid.nexifyspark.com,DIRECT
-  - DOMAIN,singad.nexifyspark.com,DIRECT
-  - DOMAIN,004.kjahbg.info,DIRECT
-  - DOMAIN,02.kjahbg.info,DIRECT
-  - DOMAIN,hn3x.newbee8.me,DIRECT
-  - IP-CIDR,103.75.188.189/32,DIRECT,no-resolve
-  - DOMAIN,06.kjahbg.info,DIRECT
-  - DOMAIN,002.kjahbg.info,DIRECT
-  - DOMAIN,01.kjahbg.info,DIRECT
-  - DOMAIN,reg3.nexifyspark.com,DIRECT
-  - DOMAIN,gy.666666222.shop,DIRECT
-  - DOMAIN,02.kjahbg.info,DIRECT
-  - DOMAIN,02.kjahbg.info,DIRECT
-  - DOMAIN,07.kjahbg.info,DIRECT
-  - DOMAIN,01.kjahbg.info,DIRECT
-  - DOMAIN,vip.baima360.com,DIRECT
-  - DOMAIN,vip.baima360.com,DIRECT
-  - DOMAIN,002.kjahbg.info,DIRECT
-  - DOMAIN,03.kjahbg.info,DIRECT
+  - IP-CIDR,141.195.112.53/32,DIRECT,no-resolve
   - DOMAIN,hk.kfsldflk.xyz,DIRECT
-  - DOMAIN,04.kjahbg.info,DIRECT
-  - DOMAIN,as-c6.nexifyspark.com,DIRECT
-  - DOMAIN,gzdx.newbee8.me,DIRECT
-  - DOMAIN,gzdx.newbee8.me,DIRECT
-  - DOMAIN,vip.baima360.com,DIRECT
-  - DOMAIN,vip.baima360.com,DIRECT
-  - DOMAIN,hn3x.newbee8.me,DIRECT
-  - DOMAIN,as-c6.nexifyspark.com,DIRECT
-  - DOMAIN,sgwest.nexifyspark.com,DIRECT
-  - DOMAIN,sgwest.nexifyspark.com,DIRECT
+  - IP-CIDR,207.90.236.21/32,DIRECT,no-resolve
+  - IP-CIDR,212.192.13.198/32,DIRECT,no-resolve
+  - IP-CIDR,207.90.237.179/32,DIRECT,no-resolve
+  - IP-CIDR,195.58.49.42/32,DIRECT,no-resolve
   - DOMAIN,gy.666666222.shop,DIRECT
-  - DOMAIN,jptokyo.nexifyspark.com,DIRECT
-  - DOMAIN,jptokyo.nexifyspark.com,DIRECT
-  - DOMAIN,sgwest.nexifyspark.com,DIRECT
-  - DOMAIN,hn3x.newbee8.me,DIRECT
-  - DOMAIN,01.kjahbg.info,DIRECT
-  - DOMAIN,reg3.nexifyspark.com,DIRECT
-  - DOMAIN,jptokyo.nexifyspark.com,DIRECT
-  - DOMAIN,hn3x.newbee8.me,DIRECT
-  - DOMAIN,ap-e1.nexifyspark.com,DIRECT
-  - DOMAIN,expa.nexifyspark.com,DIRECT
-  - DOMAIN,as-c6.nexifyspark.com,DIRECT
-  - DOMAIN,ozwest.nexifyspark.com,DIRECT
-  - DOMAIN,pop.09d21837-9b89-4490-92bf-eabf449e3321.heima360.cc,DIRECT
   - MATCH,手动切换
