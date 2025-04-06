@@ -1,7 +1,6 @@
-http://sub.kjdjakskl.cyou/api/v1/client/subscribe?token=e44e0ff0ce065c90508e938ba1a75c25
-http://51.255.173.39/api/v1/client/subscribe?token=e436dbc8ca3294a9ac9fbe796b37f871
-https://sub1.pingboy.top/api/v1/client/subscribe?token=1f2e99dfdda8c1e16c5bb2e2b755940c
-https://5.44.251.106/api/v1/client/subscribe?token=33a6e45aab0c562d50cb15ae9aa1e888
-http://subxfxssr.xfxvpn.me/api/v1/client/subscribe?token=d74742007c4aca9d379ec00c5a9815b8
-https://terfghtll.dashuai.us/api/v1/client/subscribe?token=817d3ccda488d6a956f23bf2a9e6fc50
-https://api.heima2u.com/api/v1/client/subscribe?token=c36c2b5ed38c70b57b535269cfb60f23
+http://47.101.67.199:6699/api/v1/client/subscribe?token=faa37f4dba5f5bafd8d88217df3f20db
+https://5.44.251.106/api/v1/client/subscribe?token=70e7227556b7673445769c5ee54203f7
+https://api.heima2u.com/api/v1/client/subscribe?token=3cbd91eb93c1de1eef059d9f88331815
+https://sub1.pingboy.top/api/v1/client/subscribe?token=d14981327d28344fcb09143e5f37fa49
+http://sub.kjdjakskl.cyou/api/v1/client/subscribe?token=e4cb09aabdb9d2b3412a864db9fd6b71
+https://terfghtll.dashuai.us/api/v1/client/subscribe?token=82ec2683523ee04e061be65c680f0842
